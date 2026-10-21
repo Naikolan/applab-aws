@@ -1,5 +1,6 @@
 1-Creamos repositorio y github
     1.1 Creamos diferentes path para el levantamiento
+        -Creamos  ramas, Main, Dev, Feature
     1.2 subimos la app en 3 fases
     1.3
 2-Plan de creacion
