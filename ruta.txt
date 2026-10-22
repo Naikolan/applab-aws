@@ -2,6 +2,8 @@
     1.1 Creamos diferentes path para el levantamiento
         -Debemos crear ramas, Main, Dev, Feature
         -Creamos la rama feature/gitguia con el link de una guia (https://medium.com/@pathumpiyumal013/a-beginner-friendly-guide-to-git-branching-with-diagrams-b3b6de6616bc)
+        -Creamos la rama develop/system en donde estaremos la mayor parte del tiempo y revisaremos los cambios antes de cambiar a la Main
+        -Debemos crear un diagrama con el flow de trabajo
     1.2 subimos la app en 3 fases
     1.3
 2-Plan de creacion
