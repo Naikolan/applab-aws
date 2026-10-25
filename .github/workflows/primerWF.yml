@@ -19,7 +19,7 @@ jobs:
         run: echo "Hola mundito"
 
       - name: "Checkout"
-        uses: action/checkout@v6 
+        uses: action/checkout@v4
 #Copia los archivos del repositorio dentro de la carpeta de trabajo predeterminada del ejecutor ($GITHUB_WORKSPACE), la cual inicia completamente vacía 
 #workflow (como compilar, pasar pruebas unitarias o hacer un despliegue) no tendría acceso a ningún archivo de tu proyecto.
 
