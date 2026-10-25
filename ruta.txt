@@ -8,7 +8,9 @@
         -Debemos revisar que dejar en gitignore y dockerignore
         -Las dependencias necesarias para usar la app en docker
         -Ya creamos el dockerfile
-    1.3
+    1.3 Creacion de la Pipeline
+        -Iniciamos con el primer pipeline basico
+        -probamos con la automatizacion
 2-Plan de creacion
     2.1 Levantamos una app simple
     2.2 Con infra terra, que levante una instancia en AWS.
