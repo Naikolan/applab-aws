@@ -23,3 +23,4 @@
     2.5 Desplegamos en Kubernetes
     2.6 Luego aplicamos helm y argocd
     2.7 Aplicamos metricas con grafana y prometheus
+    2.8
