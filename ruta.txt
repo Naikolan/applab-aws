@@ -4,13 +4,23 @@
         -Creamos la rama feature/gitguia con el link de una guia (https://medium.com/@pathumpiyumal013/a-beginner-friendly-guide-to-git-branching-with-diagrams-b3b6de6616bc)
         -Creamos la rama develop/system en donde estaremos la mayor parte del tiempo y revisaremos los cambios antes de cambiar a la Main
         -Debemos crear un diagrama con el flow de trabajo
-    1.2 subimos la app en 3 fases
-    1.3
+    1.2 Iniciamos la creacion de la imagen docker 
+        -Debemos revisar que dejar en gitignore y dockerignore
+        -Las dependencias necesarias para usar la app en docker
+        -Ya creamos el dockerfile
+    1.3 Creacion de la Pipeline
+        -Iniciamos con el primer pipeline basico
+        -probamos con la automatizacion
+    1.4 Pruebas con git
+        -Debemos hacer pruebas volviendo a un commit especifico local y otro del hub
+        -Hacer la prueba si es que la action funciona con app en la carpeta newapp    
 2-Plan de creacion
     2.1 Levantamos una app simple
     2.2 Con infra terra, que levante una instancia en AWS.
     2.3 Creamos una cicd con github action, en donde hacemos pruebas simples con Sonarqube
+        -Iniciamos la creacion de la primera action, haciendo pruebas
     2.4 Luego hacemos un cicd para empaquetar la app con docker
     2.5 Desplegamos en Kubernetes
     2.6 Luego aplicamos helm y argocd
     2.7 Aplicamos metricas con grafana y prometheus
+    2.8 more testing in ingles
