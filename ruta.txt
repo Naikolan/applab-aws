@@ -19,6 +19,10 @@
     2.2 Con infra terra, que levante una instancia en AWS.
     2.3 Creamos una cicd con github action, en donde hacemos pruebas simples con Sonarqube
         -Iniciamos la creacion de la primera action, haciendo pruebas
+        -Ya revisamos que la app que subimos a dockerhub funciona
+        -Iniciamos la instalacion de Sonarqube Server, para analizar el codigo
+        -Agregamos el proceso al pipeline para automatizar el proceso
+        -IMPORTANTE apagar y prender el docker de Sonarqube
     2.4 Luego hacemos un cicd para empaquetar la app con docker
     2.5 Desplegamos en Kubernetes
     2.6 Luego aplicamos helm y argocd
