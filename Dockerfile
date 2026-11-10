@@ -1,11 +1,14 @@
-FROM node:16-alpine
+FROM node:24-alpine
 
 WORKDIR /app
 
 COPY package*.json ./
+
+RUN npm ci --omit=dev
+
 COPY index.js ./
 
-RUN npm install
+ENV NODE_ENV=production
 
 EXPOSE 3000
 
